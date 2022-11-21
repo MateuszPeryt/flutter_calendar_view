@@ -1,11 +1,22 @@
 # [1.0.1 - 16 Sep 2022](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/tree/1.0.1)
 
-- Fixed
-  issue [#93 - Showing only 1 day in DayView](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/issues/93)
 - Added
   feature [#26 - Support for locale](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/issues/26)
-- Added
-  feature [#108 - WeekPage header color customization](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/pull/108)
+- Add removeWhere method in `EventController` to conditionally remove multiple events. (Fixes
+  issue [#31](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/issues/31))
+- Adds customization in calendar views and
+  closes [#34](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/issues/34).
+  - Adds Customizations in `DayView`. Adds `dateStringBuilder`, `timeStringBuilder`, `headerStyle`
+    parametes in `Dayview`,
+  - Adds Customizations in `MonthView`. Adds `headerStringBuilder`, `dateStringBuilder`
+    , `weekDayStringBuilder`, `headerStyle` patameters in `WeekView`.
+  - Adds Customisations in `WeekView`. Adds `headerStyle`,  `headerStringBuilder`
+    , `timeLineStringBuilder`, `weekDayStringBuilder`, `weekDayDateStringBuilder` parameters
+    in `WeekView`,
+- Adds onTap lister in day and week views. issue #50.
+- Updates calculation of day difference. issue #80, #97.
+- Fixed
+  issue [#93 - Showing only 1 day in DayView](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/issues/93)
 
 # [1.0.0 - 12 Aug 2022](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/tree/1.0.0)
 
