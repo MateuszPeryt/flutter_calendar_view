@@ -472,7 +472,7 @@ class MonthViewState<T extends Object?> extends State<MonthView<T>> {
     return FilledCell<T>(
       date: date,
       shouldHighlight: isToday,
-      backgroundColor: isInMonth ? Constants.white : Constants.offWhite,
+      backgroundColor: isInMonth ? const Color(0xFF121212) : const Color(0xFF141414),
       events: events,
       onTileTap: widget.onEventTap,
       dateStringBuilder: widget.dateStringBuilder,
